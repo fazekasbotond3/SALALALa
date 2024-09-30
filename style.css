@@ -17,8 +17,7 @@ p {
     height: 100px;
     width: 100px;
     position: relative;
-    float: right;
-    margin-right: 13%;
+    margin: auto;
 }
 
 .korkep1{
@@ -34,6 +33,7 @@ p {
     height: 100px;
     width: 100px;
     float: left;
+    margin-top: -25%;
 }
 
 .box{
