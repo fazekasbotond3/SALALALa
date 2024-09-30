@@ -1,0 +1,43 @@
+p {
+    color: rgb(59, 36, 8);
+    font-size: 13px;
+    font-family: cursive;
+    font-weight: bolder;    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.counter{
+    border: 2px rgb(59, 36, 8) solid;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    float: right;
+    margin-right: 13%;
+}
+
+.korkep1{
+    border: 2px rgb(59, 36, 8) solid;
+    height: 100px;
+    width: 100px;
+    float: right;
+
+}
+
+.korkep2{
+    border: 2px rgb(59, 36, 8) solid;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.box{
+    margin-top: 6%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
