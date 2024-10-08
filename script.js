@@ -4,9 +4,6 @@ function valasztas(){
 }
 
 
-
-
-
 // Set the date we're counting down to
 var countDownDate = new Date("Sep 12, 2023 20:30:00").getTime();
 
@@ -36,3 +33,16 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+
+function fannigomb(){
+    document.getElementById("fannikepek").style.display = 'block'
+    document.getElementById("kozoskepek").style.display = 'none'
+
+}
+
+function kozosgomb(){
+    document.getElementById("kozoskepek").style.display = 'block'
+    document.getElementById("fannikepek").style.display = 'none'
+
+}
